@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1">
+    <!-- styling -->
+    <link rel="stylesheet" href="styledas.css">
+
+    <!-- font: Poppins -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins&display=swap">
+
+    <!-- icons: Font Awesome 5.15-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <title>Dashboard Pmj Scan'n Go Website</title>
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar">
+        <h4>Dashboard</h4>
+        <div class="search-box">
+            <input type="text" placeholder="Search...">
+            <i class="fas fa-search"></i>
+        </div>
+        <div class="profile">
+            <img class="profile-image"
+                src="https://image.shutterstock.com/image-vector/cute-young-man-avatar-character-260nw-1904128123.jpg">
+            <p class="profile-name">Lorem ipsum</p>
+            <!--<i class="bx bx-chevron-down"></i>-->
+        </div>
+    </nav>
+
+    <!-- sidebar -->
+
+    <input type="checkbox" id="toggle">
+    <label class="side-toggle" for="toggle"><span class="fas fa-bars"></span></label>
+
+    <div class="sidebar">
+        <div class="sidebar-brand">
+            <span class=""></span>
+            <p> Pmj Scan'n go</p>
+        </div>
+        <div class="sidebar-menu">
+            <span class="fas fa-house-user"></span>
+            <p><a href="dashboard.html">Home</a></p>
+        </div>
+        <div class="sidebar-menu">
+            <span class="fas fa-users"></span>
+            <p><a href="test.html">Staff Overview</a></p>
+        </div>
+        <div class="sidebar-menu">
+            <span class="fas fa-user"></span>
+            <p><a href="profile.html">Admin Profile</a></p>
+        </div>
+        <div class="sidebar-menu">
+            <!--<span class="fas fa-right-from-bracket"></span>-->
+            <span class="fas fa-door-open"></span>
+            <p><a href="login.html">Logout</a></p>
+        </div>
+    </div>
+
+    <!-- main dashboard -->
+    <main>
+        <div class="dashboard-container">
+            <!-- 3 cards top -->
+            <div class="card total1">
+                <div class="info">
+                    <div class="info-detail">
+                        <h3>Total Staff</h3>
+                        <p>Lorem ipsum dolor</p>
+                        <h2>200<span> Staff</span></h2>
+                    </div>
+                    <div class="info-image">
+                        <i class="fas fa-users"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="card total2">
+                <div class="info">
+                    <div class="info-detail">
+                        <h3>Total Check-In</h3>
+                        <p>Lorem ipsum dolor</p>
+                        <h2>150<span> Vehicle</span></h2>
+                    </div>
+                    <div class="info-image">
+                        <i class="fas fa-car"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="card total3">
+                <div class="info">
+                    <div class="info-detail">
+                        <h3>Total Register Vehicle</h3>
+                        <p>Lorem ipsum dolor</p>
+                        <h2>500<span> Vehicle</span></h2>
+                    </div>
+                    <div class="info-image">
+                        <i class="fas fa-clipboard-list"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="recent-grid">
+            <div class="projects">
+                <div class="car">
+                    <div class="car-header">
+                        <h2>Staff Check In & Check Out</h2>
+
+                        <!--<button>See all <span class="fas fa-angles-right"></span></button>-->
+                    </div>
+
+                    <div class="car-body">
+                        <table width="100%">
+                            <thead>
+                                <tr>
+                                    <td>No</td>
+                                    <td>Name</td>
+                                    <td>Id</td>
+                                    <td>Date</td>
+                                    <td>Plate Number</td>
+                                    <td>Check In</td>
+                                    <td>Check Out</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Ali Bin Jeman</td>
+                                    <td>AA01</td>
+                                    <td>21-09-2022</td>
+                                    <td>JAT3201</td>
+                                    <td>08:34:20</td>
+                                    <td>20:30:45</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>Minah</td>
+                                    <td>AB02</td>
+                                    <td>21-09-2022</td>
+                                    <td>JBT1292</td>
+                                    <td>08:40:34</td>
+                                    <td>13:20:34</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>Salman</td>
+                                    <td>AB03</td>
+                                    <td>22-09-2022</td>
+                                    <td>JJD6790</td>
+                                    <td>09:32:10</td>
+                                    <td>18:30:22</td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td>Ali Bin Jeman</td>
+                                    <td>AA01</td>
+                                    <td>21-09-2022</td>
+                                    <td>JAT3201</td>
+                                    <td>08:34:20</td>
+                                    <td>20:30:45</td>
+                                </tr>
+                                <tr>
+                                    <td>5</td>
+                                    <td>Minah</td>
+                                    <td>AB02</td>
+                                    <td>21-09-2022</td>
+                                    <td>JBT1292</td>
+                                    <td>08:40:34</td>
+                                    <td>13:20:34</td>
+                                </tr>
+                                <tr>
+                                    <td>6</td>
+                                    <td>Salman</td>
+                                    <td>AB03</td>
+                                    <td>22-09-2022</td>
+                                    <td>JJD6790</td>
+                                    <td>09:32:10</td>
+                                    <td>18:30:22</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
